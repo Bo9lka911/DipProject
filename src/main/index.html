@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html  ng-app = "MyApp" lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title> Список Сотрудников(Справочник)</title>
+
+    <script src="View/test.js"></script>
+    <script src="View/ViewController.js"></script>
+    <link rel="stylesheet" type="text/css" href="parent.css">
+    <script src="angular/js/min/angular.min.js"></script>
+    <script src="angular/bower-angular-route-master/angular-route.js"></script>
+    <script src="angular/bower-angular-route-master/angular-route.min.js"></script>
+
+
+
+</head>
+<body background ="resources/images/desktopwallpapers.org.ua_17193.jpg" id = "bg">
+<div class="parent">
+    <div class="block">
+        <img src="resources/images/29283.jpg" height="1100" width="1100"/>
+
+        <div class = "textField1">
+            <h1>Список сотрудников справочник</h1>
+        </div>
+
+        <div ng-controller="SwitchController" class = "switchTest" ng-model = "animate-switch-container">
+            <div class = "radio_buttons">
+                <div>
+                    <input href = "#Employees" type="radio" name="option" id="radio1" value = radio1 checked />
+                    <label for="radio1">Список сотрудников</label>
+                </div>
+                <div>
+                    <input href = "#Employees" type="radio" name="option" id="radio2" value = radio2 />
+                    <label for="radio2">Добавить сотрудника</label>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class = "Field" id = "ididi">
+            </div>
+    </div>
+</div>
+</body>
+</html>
